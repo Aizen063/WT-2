@@ -1,0 +1,7 @@
+const path = require ('path')
+console.log(path.join('abc','js'))
+console.log(path.dirname('/wt/abc/js'))
+console.log(path.basename('/wt/abc/ABCAA.js'))
+console.log(path.extname('/wt/abc/js.html'))
+console.log(path.delimiter)
+console.log(path.isAbsolute('/wt/abc/js.html'))

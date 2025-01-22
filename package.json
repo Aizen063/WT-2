@@ -1,0 +1,15 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "my first code",
+  "main": "first.js",
+  "scripts": {
+    "test": "insert"
+  },
+  "author": "Vaibhav",
+  "license": "ISC",
+  "dependencies": {
+    "index": "file:",
+    "update": "^0.7.4"
+  }
+}
