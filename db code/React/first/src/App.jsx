@@ -7,7 +7,8 @@ import './second'
 import './props'
 import Class_component from './class_component'
 import Second from './second'
-import Demo from './props' 
+import Demo from './props'
+import Clickevent from './button' 
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
        <Class_component />
        <Second/>
        <Demo/>
+       <Clickevent/>
     </>
   )
 }
