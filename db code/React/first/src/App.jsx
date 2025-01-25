@@ -9,6 +9,7 @@ import Class_component from './class_component'
 import Second from './second'
 import Demo from './props'
 import Clickevent from './button' 
+import IsDisplay from './isDisplay'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
        <Second/>
        <Demo/>
        <Clickevent/>
+       <IsDisplay isdisplay={true}/>
     </>
   )
 }
