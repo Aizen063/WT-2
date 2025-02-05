@@ -5,24 +5,31 @@ import './App.css'
 import './class_component'
 import './second'
 import './props'
+import'./map'
 import Class_component from './class_component'
 import Second from './second'
 import Demo from './props'
 import Clickevent from './button' 
 import IsDisplay from './isDisplay'
-import Home from './home'
-
+import Veges from './map'
+import Faculty_d from './feculty'
+import Student from './student'
+import Product from './product'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-       <Class_component />
+       {/* <Class_component />
        <Second/>
        <Demo/>
        <Clickevent/>
        <IsDisplay isdisplay={true}/>
-       <Home/>
+       <Home/> */}
+       {/* <Veges/> */}
+       {/* <Faculty_d/> */}
+       {/* <Student/> */}
+       <Product/>
     </>
   )
 }
