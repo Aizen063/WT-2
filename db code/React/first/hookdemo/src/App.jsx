@@ -13,7 +13,7 @@ function App() {
             <button onClick={() => setCount(count + 1)}>Increment</button><br></br><hr></hr>
             <button onClick={() => {
               if(count==0){
-                setCount(0)
+                setCount(0)  
               }
               else{
                 setCount(count - 1)
@@ -23,9 +23,11 @@ function App() {
             <button onClick={() => setCount(count + 5)}>5 Increment</button><br></br><hr></hr>
             <button onClick={() => {
             if(count<=5){
-                setCount(0)
+              
+              setCount(0)
+                
               }
-              else{
+              else {
                 setCount(count - 5)
               }}}>5 dencrement</button><br></br><hr></hr>
     </>
