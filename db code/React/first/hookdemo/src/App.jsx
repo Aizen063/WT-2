@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { set } from 'mongoose'
-
+import InputDemo from './inputdemo'
+// import{Input2} from './inputdemo'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -30,6 +31,8 @@ function App() {
               else {
                 setCount(count - 5)
               }}}>5 dencrement</button><br></br><hr></hr>
+              <InputDemo/>
+              {/* <Input2 /> */}
     </>
   )
 }
