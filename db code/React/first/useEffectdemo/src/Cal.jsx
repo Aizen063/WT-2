@@ -54,7 +54,7 @@ const Cal = () => {
 
                     #display {
                         height: 50px;
-                        width: 500px;
+                        width: 490px;
                         background-color: #fff;
                         color: #000;
                         border: 1px solid #ccc;
@@ -100,17 +100,19 @@ const Cal = () => {
                     <button id="button" onClick={() => append('3')}>3</button>
                     <button id="button" onClick={() => append('+')}>+</button>
                     <button id="button" onClick={() => append('0')}>0</button>
-                    <button id="button" onClick={calculate}>=</button>
+                    <button id="button" onClick={() => append('(')}>(</button>
+                    <button id="button" onClick={() => append(')')}>)</button>
                     <button id="button" onClick={() => append('/')}>/</button>
-                    <button id="button" onClick={clear}>clear</button>
+                    <button id="button" onClick={() => append('.')}>.</button>
+                    <button id="button" onClick={() => append('%')}>%</button>
                     <button id="button" onClick={() => scientificCalculate(Math.sin)}>sin</button>
                     <button id="button" onClick={() => scientificCalculate(Math.cos)}>cos</button>
                     <button id="button" onClick={() => scientificCalculate(Math.tan)}>tan</button>
-                    <button id="button" onClick={() => scientificCalculate(Math.log)}>log</button>
+                    <button id="button" onClick={() => scientificCalculate(Math.log10)}>log</button>
                     <button id="button" onClick={() => scientificCalculate(Math.exp)}>exp</button>
                     <button id="button" onClick={() => scientificCalculate(Math.sqrt)}>sqrt</button>
-                    <button id="button" onClick={() => append('(')}>(</button>
-                    <button id="button" onClick={() => append(')')}>)</button>
+                    <button id="button" onClick={clear}>clear</button>
+                    <button id="button" onClick={calculate}>=</button>
                 </div>
             </div>
         </>
