@@ -12,7 +12,7 @@ import Demo from './props'
 import Clickevent from './button' 
 import IsDisplay from './isDisplay'
 import Veges from './map'
-import Faculty_d from './feculty'
+import Feculty from './feculty'
 import Student from './student'
 import Product from './product'
 function App() {
@@ -20,16 +20,16 @@ function App() {
 
   return (
     <>
-       <Class_component />
+       {/* <Class_component />
        <Second/>
        <Demo/>
        <Clickevent/>
        <IsDisplay isdisplay={true}/>
        <Home/> 
-       <Veges/> 
-        <Faculty_d/> 
-        <Student/>
-       <Product/>
+       <Veges/>  */}
+        <Feculty/>   
+        {/* <Student/> */}
+       {/* <Product/> */}
     </>
   )
 }
