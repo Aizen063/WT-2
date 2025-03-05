@@ -20,15 +20,15 @@ function App() {
 
   return (
     <>
-       {/* <Class_component />
+       <Class_component />
        <Second/>
        <Demo/>
        <Clickevent/>
        <IsDisplay isdisplay={true}/>
-       <Home/> */}
-       {/* <Veges/> */}
-       {/* <Faculty_d/> */}
-       {/* <Student/> */}
+       <Home/> 
+       <Veges/> 
+        <Faculty_d/> 
+        <Student/>
        <Product/>
     </>
   )
