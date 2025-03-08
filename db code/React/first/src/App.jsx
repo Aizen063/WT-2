@@ -27,9 +27,9 @@ function App() {
        <IsDisplay isdisplay={true}/>
        <Home/> 
        <Veges/>  */}
-        <Feculty/>   
+        {/* <Feculty/>    */}
         {/* <Student/> */}
-       {/* <Product/> */}
+       <Product/>
     </>
   )
 }
